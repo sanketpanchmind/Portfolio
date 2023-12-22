@@ -3,7 +3,7 @@
 }
 
 #banner-content{
-    background-image: url('./assets/intro-bg.jpg');
+    background-image: url('../assets/intro-bg.jpg');
     height: 80vh;
     width: 100%;
     background-attachment: fixed;
