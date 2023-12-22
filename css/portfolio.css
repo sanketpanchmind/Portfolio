@@ -8,7 +8,7 @@
     width: 100%;
     background-attachment: fixed;
 }
-/* .overlay{
+.overlay{
     position: fixed;
     top: 0;
     left: 0;
@@ -16,7 +16,27 @@
     height: 80vh;
     background-color: rgba(0,0,0,0.5);
     background-attachment: fixed;
-} */
+}
+
+.profile_pics .card{
+    width: 250px;
+    height: 400px;
+}
+.profile_pics .card img{
+    width: 250px;
+    height: 400px;
+    object-fit: cover;
+    border: 0;
+}
+.profile_pics .card:nth-child(1):hover {
+    z-index: 1;
+    transition: 1s ease !important;
+}
+.profile_pics .card:nth-child(2){
+    rotate: 7deg;
+    position: absolute;
+    left: 150px;
+}
 
 .mastheader{
     position: absolute;
@@ -25,4 +45,30 @@
 
 .skills {
     background-image: url('./assets/Skills-bg-img.png');
+    padding: 100px 0px;
+}
+.skills .experience div{
+    font-size: 5rem;
+}
+.skills p{
+    line-height: 2;
+    text-align: justify;
+}
+.skills .designer_name{
+    font-weight: bold;
+}
+
+.aboutus_personal_info{
+    padding: 50px 0px;
+}
+
+.aboutus_personal_info h6.title{
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.500);
+    font-size: 1.32rem;
+}
+.aboutus_personal_info h6.title_data{
+    font-weight: 400;
+    color: #000;
+    font-size: 1.32rem;
 }
