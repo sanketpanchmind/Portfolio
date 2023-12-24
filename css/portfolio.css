@@ -8,7 +8,7 @@
     width: 100%;
     background-attachment: fixed;
 }
-.overlay{
+/* .overlay{
     position: fixed;
     top: 0;
     left: 0;
@@ -16,7 +16,7 @@
     height: 80vh;
     background-color: rgba(0,0,0,0.5);
     background-attachment: fixed;
-}
+} */
 
 .profile_pics .card{
     width: 250px;
@@ -46,6 +46,8 @@
 .skills {
     background-image: url('./assets/Skills-bg-img.png');
     padding: 100px 0px;
+    background-color: #494b50;
+    color: #fff;
 }
 .skills .experience div{
     font-size: 5rem;
@@ -69,6 +71,54 @@
 }
 .aboutus_personal_info h6.title_data{
     font-weight: 400;
-    color: #000;
+    /* color: #000; */
     font-size: 1.32rem;
+}
+
+/* programming skills section */
+.programming_skills {
+    padding: 100px 0px;
+    background-color: #303134;
+    background-image: url('../assets/programmingskills.jpg');
+    height: 100%;
+    background-attachment: fixed;
+    /* color: #fff; */
+
+}
+/* .programming_skills .overlay{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+} */
+
+
+/* timeline css */
+
+.timeline{
+    padding: 100px;
+    background-color: #494b50;
+    color: #fff;
+}
+.timeline ul li{
+    padding: 25px 0px;
+    background-color: #494b50;
+    color: #fff;
+}
+
+
+.footer {
+    padding: 100px 0px;
+    background-color: #303134;
+    color: #fff;
+}
+.footer a{
+    color: #fff;
+}
+.footer h1{
+    padding-bottom: 25px;
+}
+.footer img{
+    width: 40px;
+    height: 40px;
 }
