@@ -46,8 +46,8 @@
 .skills {
     background-image: url('./assets/Skills-bg-img.png');
     padding: 100px 0px;
-    background-color: #494b50;
-    color: #fff;
+    /* background-color: #494b50;
+    color: #fff; */
 }
 .skills .experience div{
     font-size: 5rem;
@@ -97,13 +97,13 @@
 
 .timeline{
     padding: 100px;
-    background-color: #494b50;
-    color: #fff;
+    /* background-color: #494b50;
+    color: #fff; */
 }
 .timeline ul li{
     padding: 25px 0px;
-    background-color: #494b50;
-    color: #fff;
+    /* background-color: #494b50;
+    color: #fff; */
 }
 
 
