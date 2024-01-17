@@ -91,12 +91,12 @@
 .aboutus_personal_info h6.title{
     font-weight: 400;
     color: rgba(0, 0, 0, 0.500);
-    font-size: 1.32rem;
+    font-size: 1rem;
 }
 .aboutus_personal_info h6.title_data{
     font-weight: 400;
     /* color: #000; */
-    font-size: 1.32rem;
+    font-size: 1rem;
 }
 
 /* programming skills section */
@@ -142,7 +142,9 @@
     width: 40px;
     height: 40px;
 }
-
+.connect_me .fa-brands{
+    margin: 0px 20px;
+}
 
 .footer .connect_me .fa-brands{
     font-size: 25px;
@@ -157,4 +159,22 @@
     color: #fff;
     border-radius: 50%;
     padding: 20px 23px;
+}
+
+
+@media only screen and (max-width: 479px){
+    section#timeline{
+        padding: 20px !important;
+    }
+    .footer .col-sm-4{
+        padding: 10px 20px;
+    }
+    .footer h2{
+        padding: 10px;
+    }
+    .footer p,
+    .footer .fa-brands,
+    .footer a{
+        font-size: 0.85rem;
+    }
 }
