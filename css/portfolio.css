@@ -1,6 +1,4 @@
-*{
-    font-family: 'Roboto Slab', serif !important;
-}
+
 
 .navbar{
     position: fixed;
@@ -8,8 +6,14 @@
     width: 100%;
     z-index: 1;
 }
-
-
+.navbar a.navbar-brand{
+    color: #f24432;
+    font-weight: 600;
+}
+.navbar .collapse ul li.nav-item a.nav-link:hover,
+.navbar .collapse ul li.nav-item a.nav-link.active{
+    color: #f24432;
+}
 
 #banner-content{
     background-image: url('../assets/intro-bg.jpg');
@@ -17,15 +21,26 @@
     width: 100%;
     background-attachment: fixed;
 }
-/* .overlay{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+.overlay{
     height: 80vh;
-    background-color: rgba(0,0,0,0.5);
-    background-attachment: fixed;
-} */
+    width: 100%;
+    padding: 0;
+    background-color: rgba(00,0,0,0.5);
+}
+
+#aboutme h2{
+    position: relative !important;
+}
+#aboutme h2.designer_name::after{
+    content: '';
+    position: absolute;
+    height: 2px;
+    width:35%;
+    background:#f24432;
+    position:absolute;
+    left: 0%;
+    bottom:-5px;
+}
 
 .profile_pics .card{
     width: 250px;
@@ -93,15 +108,7 @@
     color: #fff;
 
 }
-/* .programming_skills .overlay{
-    position: absolute;
-    top: 0;
-    background-color: rgba(0,0,0,0.5);
-    height: 100%;
-} */
 
-
-/* timeline css */
 
 .timeline{
     padding: 100px;
@@ -122,8 +129,13 @@
 }
 .footer a{
     color: #fff;
+    text-decoration: none;
 }
-.footer h1{
+.footer .fa-envelope,
+.footer .fa-phone-volume{
+    padding: 0px 5px;
+}
+.footer h2{
     padding-bottom: 25px;
 }
 .footer img{
@@ -131,12 +143,18 @@
     height: 40px;
 }
 
+
+.footer .connect_me .fa-brands{
+    font-size: 25px;
+}
 .scroll_to_top{
     position: fixed;
     right: 10px;
     bottom: 10px;
     background-color: rgba(0, 128, 0, 0.742);
-    padding: 5px 20px;
+    padding: 25px 20px;
     text-decoration: none;
     color: #fff;
+    border-radius: 50%;
+    padding: 20px 23px;
 }
