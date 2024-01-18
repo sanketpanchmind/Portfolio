@@ -1,5 +1,7 @@
 
-
+.text-main {
+    color: #f24432;
+}
 .navbar{
     position: fixed;
     top: 0;
@@ -134,6 +136,9 @@
 .footer .fa-envelope,
 .footer .fa-phone-volume{
     padding: 0px 5px;
+}
+.footer p{
+    font-size: 0.85rem;
 }
 .footer h2{
     padding-bottom: 25px;
