@@ -4,6 +4,11 @@
     font-weight: 400;
     font-style: normal;
 }
+::-webkit-scrollbar{
+    width: 2px;
+    border-radius: 50px;
+    background-color: #0e66ff;
+}
 .text-main {
     color: #0e66ff;
 }
