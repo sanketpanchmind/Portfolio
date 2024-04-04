@@ -7,12 +7,12 @@
     z-index: 1;
 }
 .navbar a.navbar-brand{
-    color: #f24432;
+    color: #0e66ff;
     font-weight: 600;
 }
 .navbar .collapse ul li.nav-item a.nav-link:hover,
 .navbar .collapse ul li.nav-item a.nav-link.active{
-    color: #f24432;
+    color: #0e66ff;
 }
 
 #banner-content{
@@ -28,6 +28,10 @@
     background-color: rgba(00,0,0,0.5);
 }
 
+ul.navbar-nav li.nav-item{
+    padding-inline: 15px !important;
+}
+
 #aboutme h2{
     position: relative !important;
 }
@@ -36,7 +40,7 @@
     position: absolute;
     height: 2px;
     width:35%;
-    background:#f24432;
+    background:#0e66ff;
     position:absolute;
     left: 0%;
     bottom:-5px;
@@ -153,7 +157,7 @@
     position: fixed;
     right: 10px;
     bottom: 10px;
-    background-color: rgba(0, 128, 0, 0.742);
+    background-color: #0e66ff;
     padding: 25px 20px;
     text-decoration: none;
     color: #fff;
