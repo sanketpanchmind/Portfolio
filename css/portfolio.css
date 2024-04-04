@@ -154,7 +154,11 @@ ul.navbar-nav li.nav-item{
 
 .footer {
     padding: 100px 0px;
-    background-color: #303134;
+    /* background-color: #303134; */
+    background-image: url('../assets/homeAboutBg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
     color: #fff;
 }
 .footer a{
