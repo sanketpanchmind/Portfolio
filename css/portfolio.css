@@ -1,5 +1,7 @@
 
-
+.text-main {
+    color: #0e66ff;
+}
 .navbar{
     position: fixed;
     top: 0;
@@ -13,6 +15,7 @@
 .navbar .collapse ul li.nav-item a.nav-link:hover,
 .navbar .collapse ul li.nav-item a.nav-link.active{
     color: #0e66ff;
+    font-size: 0.85rem;
 }
 
 #banner-content{
@@ -30,6 +33,7 @@
 
 ul.navbar-nav li.nav-item{
     padding-inline: 15px !important;
+    font-size: 0.85rem;
 }
 
 #aboutme h2{
@@ -139,6 +143,9 @@ ul.navbar-nav li.nav-item{
 .footer .fa-phone-volume{
     padding: 0px 5px;
 }
+.footer p{
+    font-size: 0.85rem;
+}
 .footer h2{
     padding-bottom: 25px;
 }
@@ -163,6 +170,38 @@ ul.navbar-nav li.nav-item{
     color: #fff;
     border-radius: 50%;
     padding: 20px 23px;
+}
+
+.carousel-control-prev {
+    left: 0;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #0e66ff;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+.carousel-control-next {
+    right: 0;
+    top: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: #0e66ff;
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    left: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-bottom: 1rem;
+    margin-left: 15%;
 }
 
 
