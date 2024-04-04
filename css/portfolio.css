@@ -1,4 +1,9 @@
 
+*{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
 .text-main {
     color: #0e66ff;
 }
@@ -91,6 +96,17 @@ ul.navbar-nav li.nav-item{
 .skills .designer_name{
     font-weight: bold;
 }
+
+.programming_skills .carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+    padding: 0px;
+}
+
 
 .aboutus_personal_info{
     padding: 50px 0px;
