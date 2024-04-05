@@ -41,7 +41,8 @@ html,body{
 
 #banner-content {
     /* background-image: url('../assets/intro-bg.jpg'); */
-    background-image: url('../assets/banner3.jpg');
+    /* background-image: url('../assets/banner3.jpg'); */
+    background-image: url('../assets/banner4.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
