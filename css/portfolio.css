@@ -1,87 +1,105 @@
-
-*{
+* {
     font-family: "Lora", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-::-webkit-scrollbar{
+
+::-webkit-scrollbar {
     width: 2px;
     border-radius: 50px;
     background-color: #0e66ff;
 }
+html,body{
+    /* width: 100vh;
+    height: 100vh; */
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
 .text-main {
     color: #0e66ff;
 }
-.navbar{
+
+.navbar {
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
+    z-index: 2;
 }
-.navbar a.navbar-brand{
+
+.navbar a.navbar-brand {
     color: #0e66ff;
     font-weight: 600;
 }
+
 .navbar .collapse ul li.nav-item a.nav-link:hover,
-.navbar .collapse ul li.nav-item a.nav-link.active{
+.navbar .collapse ul li.nav-item a.nav-link.active {
     color: #0e66ff;
     font-size: 0.85rem;
 }
 
-#banner-content{
-    background-image: url('../assets/intro-bg.jpg');
+#banner-content {
+    /* background-image: url('../assets/intro-bg.jpg'); */
+    background-image: url('../assets/banner3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 80vh;
     width: 100%;
     background-attachment: fixed;
 }
-.overlay{
+
+.overlay {
     height: 80vh;
     width: 100%;
     padding: 0;
-    background-color: rgba(00,0,0,0.5);
+    background-color: rgba(00, 0, 0, 0.5);
 }
 
-ul.navbar-nav li.nav-item{
+ul.navbar-nav li.nav-item {
     padding-inline: 15px !important;
     font-size: 0.85rem;
 }
 
-#aboutme h2{
+#aboutme h2 {
     position: relative !important;
 }
-#aboutme h2.designer_name::after{
+
+#aboutme h2.designer_name::after {
     content: '';
     position: absolute;
     height: 2px;
-    width:35%;
-    background:#0e66ff;
-    position:absolute;
+    width: 35%;
+    background: #0e66ff;
+    position: absolute;
     left: 0%;
-    bottom:-5px;
+    bottom: -5px;
 }
 
-.profile_pics .card{
+.profile_pics .card {
     width: 250px;
     height: 400px;
 }
-.profile_pics .card img{
+
+.profile_pics .card img {
     width: 250px;
     height: 400px;
     object-fit: cover;
     border: 0;
 }
+
 .profile_pics .card:nth-child(1):hover {
     z-index: 1;
     transition: 1s ease !important;
 }
-.profile_pics .card:nth-child(2){
+
+.profile_pics .card:nth-child(2) {
     rotate: 7deg;
     position: absolute;
     left: 150px;
 }
 
-.mastheader{
+.mastheader {
     position: absolute;
     top: -15%;
 }
@@ -92,16 +110,20 @@ ul.navbar-nav li.nav-item{
     /* background-color: #494b50;
     color: #fff; */
 }
-.skills .experience div{
+
+.skills .experience div {
     font-size: 5rem;
 }
-.skills p{
+
+.skills p {
     line-height: 2;
     text-align: justify;
 }
-.skills .designer_name{
+
+.skills .designer_name {
     font-weight: bold;
 }
+
 
 .programming_skills .carousel-control-next-icon, .carousel-control-prev-icon {
     display: inline-block;
@@ -114,16 +136,17 @@ ul.navbar-nav li.nav-item{
 }
 
 
-.aboutus_personal_info{
+.aboutus_personal_info {
     padding: 50px 0px;
 }
 
-.aboutus_personal_info h6.title{
+.aboutus_personal_info h6.title {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.500);
     font-size: 1rem;
 }
-.aboutus_personal_info h6.title_data{
+
+.aboutus_personal_info h6.title_data {
     font-weight: 400;
     /* color: #000; */
     font-size: 1rem;
@@ -132,20 +155,33 @@ ul.navbar-nav li.nav-item{
 /* programming skills section */
 .programming_skills {
     padding: 100px 0px;
-    background-color: #303134;
-    height: 100%;
+    /* background-color: #303134; */
+    background-image: url('https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712188800&semt=ais');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     color: #fff;
+    position: relative;
+}
 
+.programming_skills_overlay {
+    position: absolute;
+    top: 0;
+    background-color: rgba(00, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    padding: 0;
 }
 
 
-.timeline{
+.timeline {
     padding: 100px;
     /* background-color: #494b50;
     color: #fff; */
 }
-.timeline ul li{
+
+.timeline ul li {
     padding: 25px 0px;
     /* background-color: #494b50;
     color: #fff; */
@@ -161,32 +197,39 @@ ul.navbar-nav li.nav-item{
     height: 50vh;
     color: #fff;
 }
-.footer a{
+
+.footer a {
     color: #fff;
     text-decoration: none;
 }
+
 .footer .fa-envelope,
-.footer .fa-phone-volume{
+.footer .fa-phone-volume {
     padding: 0px 5px;
 }
-.footer p{
+
+.footer p {
     font-size: 0.85rem;
 }
-.footer h2{
+
+.footer h2 {
     padding-bottom: 25px;
 }
-.footer img{
+
+.footer img {
     width: 40px;
     height: 40px;
 }
-.connect_me .fa-brands{
+
+.connect_me .fa-brands {
     margin: 0px 20px;
 }
 
-.footer .connect_me .fa-brands{
+.footer .connect_me .fa-brands {
     font-size: 25px;
 }
-.scroll_to_top{
+
+.scroll_to_top {
     position: fixed;
     right: 10px;
     bottom: 10px;
@@ -207,6 +250,7 @@ ul.navbar-nav li.nav-item{
     padding: 5px 5px;
     border-radius: 50%;
 }
+
 .carousel-control-next {
     right: 0;
     top: 50%;
@@ -216,6 +260,7 @@ ul.navbar-nav li.nav-item{
     padding: 5px 5px;
     border-radius: 50%;
 }
+
 .carousel-indicators {
     position: absolute;
     right: 0;
@@ -231,19 +276,47 @@ ul.navbar-nav li.nav-item{
 }
 
 
-@media only screen and (max-width: 479px){
-    section#timeline{
-        padding: 20px !important;
+@media only screen and (max-width: 479px) {
+
+
+    /* programming skills section */
+    .programming_skills {
+        padding: 100px 0px;
+        /* background-color: #303134; */
+        background-image: url('https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712188800&semt=ais');
+        height: 110vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        color: #fff;
+        position: relative;
     }
-    .footer .col-sm-4{
+
+    .footer {
+        padding: 100px 0px;
+        /* background-color: #303134; */
+        background-image: url('../assets/homeAboutBg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        color: #fff;
+    }
+
+    section#timeline {
+        padding: 100px 0px !important;
+    }
+
+    .footer .col-sm-4 {
         padding: 10px 20px;
     }
-    .footer h2{
+
+    .footer h2 {
         padding: 10px;
     }
+
     .footer p,
     .footer .fa-brands,
-    .footer a{
+    .footer a {
         font-size: 0.85rem;
     }
 }
