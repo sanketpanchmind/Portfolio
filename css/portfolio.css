@@ -43,6 +43,7 @@ html,body{
     /* background-image: url('../assets/intro-bg.jpg'); */
     /* background-image: url('../assets/banner3.jpg'); */
     background-image: url('../assets/banner4.jpeg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
@@ -107,6 +108,7 @@ ul.navbar-nav li.nav-item {
 
 .skills {
     background-image: url('assets/Skills-bg-img.png');
+    background-attachment: fixed;
     padding: 100px 0px;
     /* background-color: #494b50;
     color: #fff; */
