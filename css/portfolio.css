@@ -1,325 +1,348 @@
 * {
-    font-family: "Lora", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 ::-webkit-scrollbar {
-    width: 2px;
-    border-radius: 50px;
-    background-color: #0e66ff;
+  width: 2px;
+  border-radius: 50px;
+  background-color: #0e66ff;
 }
-html,body{
-    /* width: 100vh;
+html,
+body {
+  /* width: 100vh;
     height: 100vh; */
-    padding: 0;
-    margin: 0;
-    overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
 }
 .text-main {
-    color: #0e66ff;
+  color: #0e66ff;
 }
 
 .navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 2;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
 .navbar a.navbar-brand {
-    color: #0e66ff;
-    font-weight: 600;
+  color: #0e66ff;
+  font-weight: 600;
 }
 
 .navbar .collapse ul li.nav-item a.nav-link:hover,
 .navbar .collapse ul li.nav-item a.nav-link.active {
-    color: #0e66ff;
-    font-size: 0.85rem;
+  color: #0e66ff;
+  font-size: 0.85rem;
 }
 
 #banner-content {
-    /* background-image: url('../assets/intro-bg.jpg'); */
-    /* background-image: url('../assets/banner3.jpg'); */
-    background-image: url('../assets/banner4.jpeg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    width: 100%;
-    background-attachment: fixed;
+  /* background-image: url('../assets/intro-bg.jpg'); */
+  /* background-image: url('../assets/banner3.jpg'); */
+  background-image: url("../assets/banner4.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  background-attachment: fixed;
 }
 
 .overlay {
-    height: 80vh;
-    width: 100%;
-    padding: 0;
-    background-color: rgba(00, 0, 0, 0.5);
+  height: 80vh;
+  width: 100%;
+  padding: 0;
+  background-color: rgba(00, 0, 0, 0.5);
 }
 
 ul.navbar-nav li.nav-item {
-    padding-inline: 15px !important;
-    font-size: 0.85rem;
+  padding-inline: 15px !important;
+  font-size: 0.85rem;
 }
 
 #aboutme h2 {
-    position: relative !important;
+  position: relative !important;
 }
 
 #aboutme h2.designer_name::after {
-    content: '';
-    position: absolute;
-    height: 2px;
-    width: 35%;
-    background: #0e66ff;
-    position: absolute;
-    left: 0%;
-    bottom: -5px;
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 35%;
+  background: #0e66ff;
+  position: absolute;
+  left: 0%;
+  bottom: -5px;
 }
 
 .profile_pics .card {
-    width: 250px;
-    height: 400px;
+  width: 250px;
+  height: 400px;
 }
 
 .profile_pics .card img {
-    width: 250px;
-    height: 400px;
-    object-fit: cover;
-    border: 0;
+  width: 250px;
+  height: 400px;
+  object-fit: cover;
+  border: 0;
 }
 
 .profile_pics .card:nth-child(1):hover {
-    z-index: 1;
-    transition: 1s ease !important;
+  z-index: 1;
+  transition: 1s ease !important;
 }
 
 .profile_pics .card:nth-child(2) {
-    rotate: 7deg;
-    position: absolute;
-    left: 150px;
+  rotate: 7deg;
+  position: absolute;
+  left: 150px;
 }
 
 .mastheader {
-    position: absolute;
-    top: -15%;
+  position: absolute;
+  top: -15%;
 }
 
 .skills {
-    background-image: url('assets/Skills-bg-img.png');
-    background-attachment: fixed;
-    padding: 100px 0px;
-    /* background-color: #494b50;
+  background-image: url("assets/Skills-bg-img.png");
+  background-attachment: fixed;
+  padding: 100px 0px;
+  /* background-color: #494b50;
     color: #fff; */
 }
 
 .skills .experience div {
-    font-size: 5rem;
+  font-size: 5rem;
 }
 
 .skills p {
-    line-height: 2;
-    text-align: justify;
+  line-height: 2;
+  text-align: justify;
 }
 
 .skills .designer_name {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-
-.programming_skills .carousel-control-next-icon, .carousel-control-prev-icon {
-    display: inline-block;
-    width: 1.2rem;
-    height: 1.2rem;
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 100% 100%;
-    padding: 0px;
+.programming_skills .carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: 100% 100%;
+  padding: 0px;
 }
-
 
 .aboutus_personal_info {
-    padding: 50px 0px;
+  padding: 50px 0px;
 }
 
 .aboutus_personal_info h6.title {
-    font-weight: 400;
-    color: rgba(0, 0, 0, 0.500);
-    font-size: 1rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
 }
 
 .aboutus_personal_info h6.title_data {
-    font-weight: 400;
-    /* color: #000; */
-    font-size: 1rem;
+  font-weight: 400;
+  /* color: #000; */
+  font-size: 1rem;
 }
 
 /* programming skills section */
 .programming_skills {
+  padding: 100px 0px;
+  /* background-color: #303134; */
+  background-image: url("https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712188800&semt=ais");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #fff;
+  position: relative;
+}
+
+.programming_skills_overlay {
+  position: absolute;
+  top: 0;
+  background-color: rgba(00, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+
+.timeline {
+  padding: 100px;
+  /* background-color: #494b50;
+    color: #fff; */
+}
+
+.timeline ul li {
+  padding: 25px 0px;
+  /* background-color: #494b50;
+    color: #fff; */
+}
+
+.footer {
+  padding: 100px 0px;
+  /* background-color: #303134; */
+  background-image: url("../assets/homeAboutBg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  color: #fff;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer .fa-envelope,
+.footer .fa-phone-volume {
+  padding: 0px 5px;
+}
+
+.footer p {
+  font-size: 0.85rem;
+}
+
+.footer h2 {
+  padding-bottom: 25px;
+}
+
+.footer img {
+  width: 40px;
+  height: 40px;
+}
+
+.connect_me .fa-brands {
+  margin: 0px 20px;
+}
+
+.footer .connect_me .fa-brands {
+  font-size: 25px;
+}
+
+.scroll_to_top {
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  background-color: #0e66ff;
+  padding: 25px 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50%;
+  padding: 20px 23px;
+}
+
+.carousel-control-prev {
+  left: 0;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #0e66ff;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
+
+.carousel-control-next {
+  right: 0;
+  top: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #0e66ff;
+  padding: 5px 5px;
+  border-radius: 50%;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
+}
+
+.fa-instagram {
+  background: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.fa-linkedin {
+  background: #0077b5 !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+.fa-twitter {
+  background: #2daae1 !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+@media only screen and (max-width: 479px) {
+  /* programming skills section */
+  .programming_skills {
     padding: 100px 0px;
     /* background-color: #303134; */
-    background-image: url('https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712188800&semt=ais');
-    height: 100vh;
+    background-image: url("https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712188800&semt=ais");
+    height: 110vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
     color: #fff;
     position: relative;
-}
+  }
 
-.programming_skills_overlay {
-    position: absolute;
-    top: 0;
-    background-color: rgba(00, 0, 0, 0.5);
-    width: 100%;
-    height: 100%;
-    padding: 0;
-}
-
-
-.timeline {
-    padding: 100px;
-    /* background-color: #494b50;
-    color: #fff; */
-}
-
-.timeline ul li {
-    padding: 25px 0px;
-    /* background-color: #494b50;
-    color: #fff; */
-}
-
-
-.footer {
+  .footer {
     padding: 100px 0px;
     /* background-color: #303134; */
-    background-image: url('../assets/homeAboutBg.png');
+    background-image: url("../assets/homeAboutBg.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 50vh;
+    height: 100vh;
     color: #fff;
-}
+  }
 
-.footer a {
-    color: #fff;
-    text-decoration: none;
-}
+  section#timeline {
+    padding: 100px 0px !important;
+  }
 
-.footer .fa-envelope,
-.footer .fa-phone-volume {
-    padding: 0px 5px;
-}
+  .footer .col-sm-4 {
+    padding: 10px 20px;
+  }
 
-.footer p {
+  .footer h2 {
+    padding: 10px;
+  }
+
+  .footer p,
+  .footer .fa-brands,
+  .footer a {
     font-size: 0.85rem;
-}
-
-.footer h2 {
-    padding-bottom: 25px;
-}
-
-.footer img {
-    width: 40px;
-    height: 40px;
-}
-
-.connect_me .fa-brands {
-    margin: 0px 20px;
-}
-
-.footer .connect_me .fa-brands {
-    font-size: 25px;
-}
-
-.scroll_to_top {
-    position: fixed;
-    right: 10px;
-    bottom: 10px;
-    background-color: #0e66ff;
-    padding: 25px 20px;
-    text-decoration: none;
-    color: #fff;
-    border-radius: 50%;
-    padding: 20px 23px;
-}
-
-.carousel-control-prev {
-    left: 0;
-    top: 50%;
-    height: 40px;
-    width: 40px;
-    background-color: #0e66ff;
-    padding: 5px 5px;
-    border-radius: 50%;
-}
-
-.carousel-control-next {
-    right: 0;
-    top: 50%;
-    height: 40px;
-    width: 40px;
-    background-color: #0e66ff;
-    padding: 5px 5px;
-    border-radius: 50%;
-}
-
-.carousel-indicators {
-    position: absolute;
-    right: 0;
-    bottom: -50px;
-    left: 0;
-    z-index: 2;
-    display: flex;
-    justify-content: center;
-    padding: 0;
-    margin-right: 15%;
-    margin-bottom: 1rem;
-    margin-left: 15%;
-}
-
-
-@media only screen and (max-width: 479px) {
-
-
-    /* programming skills section */
-    .programming_skills {
-        padding: 100px 0px;
-        /* background-color: #303134; */
-        background-image: url('https://img.freepik.com/free-photo/html-css-collage-concept_23-2150061955.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712188800&semt=ais');
-        height: 110vh;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment: fixed;
-        color: #fff;
-        position: relative;
-    }
-
-    .footer {
-        padding: 100px 0px;
-        /* background-color: #303134; */
-        background-image: url('../assets/homeAboutBg.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 100vh;
-        color: #fff;
-    }
-
-    section#timeline {
-        padding: 100px 0px !important;
-    }
-
-    .footer .col-sm-4 {
-        padding: 10px 20px;
-    }
-
-    .footer h2 {
-        padding: 10px;
-    }
-
-    .footer p,
-    .footer .fa-brands,
-    .footer a {
-        font-size: 0.85rem;
-    }
+  }
 }
