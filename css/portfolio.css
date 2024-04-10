@@ -34,23 +34,44 @@ body {
   font-weight: 600;
 }
 
-.navbar .collapse ul li.nav-item a.nav-link:hover,
-.navbar .collapse ul li.nav-item a.nav-link.active {
-  color: #0e66ff;
-  font-size: 0.956rem;
-  transition: 0.5s ease-in-out;
+.navbar .collapse ul li.nav-item a.nav-link{
+    position: relative;
+    color: #000;
 }
+
+.navbar .collapse ul li.nav-item a.nav-link::after{
+   content: "";
+   display: block;
+   /* position: absolute !important; */
+   height: 2px;
+   width: 0;
+   background-color: #0e66ff !important;
+   transition: 0.5s ease-in-out;
+}
+
+
+.navbar .collapse ul li.nav-item a.nav-link:hover::after{
+    width: 100%;
+    left: 50%;
+}
+.navbar .collapse ul li.nav-item a.nav-link:hover{
+    color: #0e66ff;
+}
+
+
+
 
 #banner-content {
   /* background-image: url('../assets/intro-bg.jpg'); */
   /* background-image: url('../assets/banner3.jpg'); */
-  background-image: url("../assets/banner4.jpeg");
+  background-image: url("../assets/banner_image.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
   width: 100%;
   background-attachment: fixed;
+  position: relative;
 }
 
 .overlay {
@@ -107,12 +128,14 @@ ul.navbar-nav li.nav-item {
     border: none;
     padding: 40px;
     transition: 0.2s ease-in-out;
+    border: 1px solid #0000006e;
 }
 .skills .tech_blocks .card:hover {
     padding: 40px;
     border: none;
-    box-shadow: 5px 5px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
     transition: 0.2s ease-in-out;
+    border: 1px solid rgba(0, 0, 0, 0.5);
 }
 .skills .tech_icon{
     font-size: 60px;
@@ -251,7 +274,7 @@ ul.navbar-nav li.nav-item {
     left: 0;
     top: -100px;
     background-color: #fff;
-    transform: skewY(8deg);
+    transform: skewY(10deg);
 }
 .footer:after{
     content: "";
@@ -261,7 +284,7 @@ ul.navbar-nav li.nav-item {
     right: 0;
     top: -100px;
     background-color: #fff;
-    transform: skewY(-8deg);
+    transform: skewY(-10deg);
 } */
 .footer a {
   color: #fff;
@@ -296,8 +319,8 @@ ul.navbar-nav li.nav-item {
 
 .scroll_to_top {
   position: fixed;
-  right: 10px;
-  bottom: 10px;
+  right: 30px;
+  bottom: 20px;
   background-color: #0e66ff;
   padding: 25px 20px;
   text-decoration: none;
