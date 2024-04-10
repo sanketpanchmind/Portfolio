@@ -72,6 +72,7 @@ body {
   width: 100%;
   background-attachment: fixed;
   position: relative;
+  clip-path: polygon(0 0, 100% 0%, 100% 88%, 47% 100%, 0 88%);
 }
 
 .overlay {
@@ -81,7 +82,7 @@ body {
   background-color: rgba(00, 0, 0, 0.5);
 }
 
-#banner-content::before {
+/* #banner-content::before {
     background-color: #fff !important;
     height: 150px;
     width: 50%;
@@ -100,7 +101,7 @@ body {
     right: 0;
     bottom: -60px;
     transform: skewY(-10deg);
-}
+} */
 
 ul.navbar-nav li.nav-item {
   padding-inline: 15px !important;
@@ -414,18 +415,22 @@ ul.navbar-nav li.nav-item {
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 70vh;
+        height: 60vh;
         width: 100%;
         background-attachment: fixed;
         position: relative;
       }
       
       .overlay {
-        height: 70vh;
+        height: 60vh;
         width: 100%;
         padding: 0;
         background-color: rgba(00, 0, 0, 0.5);
       }
+      .mastheader {
+        position: absolute;
+        top: -5%;
+    }
       
   /* programming skills section */
   .programming_skills {
