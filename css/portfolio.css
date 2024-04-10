@@ -334,7 +334,7 @@ ul.navbar-nav li.nav-item {
   top: 50%;
   height: 40px;
   width: 40px;
-  background-color: #0e66ff;
+  /* background-color: #0e66ff; */
   padding: 5px 5px;
   border-radius: 50%;
 }
@@ -344,7 +344,7 @@ ul.navbar-nav li.nav-item {
   top: 50%;
   height: 40px;
   width: 40px;
-  background-color: #0e66ff;
+  /* background-color: #0e66ff; */
   padding: 5px 5px;
   border-radius: 50%;
 }
@@ -406,6 +406,27 @@ ul.navbar-nav li.nav-item {
 }
 
 @media only screen and (max-width: 479px) {
+
+    #banner-content {
+        /* background-image: url('../assets/intro-bg.jpg'); */
+        /* background-image: url('../assets/banner3.jpg'); */
+        background-image: url("../assets/banner_image.jpg");
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70vh;
+        width: 100%;
+        background-attachment: fixed;
+        position: relative;
+      }
+      
+      .overlay {
+        height: 70vh;
+        width: 100%;
+        padding: 0;
+        background-color: rgba(00, 0, 0, 0.5);
+      }
+      
   /* programming skills section */
   .programming_skills {
     padding: 100px 0px;
